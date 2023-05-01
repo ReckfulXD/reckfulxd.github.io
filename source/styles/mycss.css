@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+body {
+    font-family: Kanit, serif;
+    background: linear-gradient(90deg, #A97D31 0%, #4B9CAB 80%, #789db1 100%);
+}
+
+p {
+    color: whitesmoke;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(148, 150, 150);
+}
+
+.navbar-brand img {
+    width: 75px;
+}
+
+.navbar-toggler {
+    background-color: rgb(148, 150, 150);
+}
+
+.sidebar {
+    color: #ffffff;
+    background: linear-gradient(270deg, #A97D31 0%, #4B9CAB 80%, #789db1 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #726e66 0%, #97b5bb 80%, #789db1 100%);
+    color:whitesmoke;
+}
+
+.card a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.slide-text,
+.footer-text {
+    color: whitesmoke;
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-warning {
+    background: linear-gradient(270deg, #726e66 0%, #97b5bb 80%, #789db1 100%);
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-animation {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.nav-item {
+    font-size: 24px;
+}
